@@ -154,6 +154,34 @@ p {
 	border-radius: 16px;       
 	object-fit: cover;         
 }
+.soundcloud-frame {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border: none;
+    overflow: hidden;
+}
+
+.soundcloud-credit {
+    text-align: center;
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 0.4rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+}
+
+.soundcloud-credit a {
+    color: #cccccc;
+    text-decoration: none;
+}
 
 .gallery-container {
 	display: flex;
